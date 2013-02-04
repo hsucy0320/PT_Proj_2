@@ -1,0 +1,27 @@
+//
+// Prefix header for all source files of the 'm-Order' target in the 'm-Order' project
+//
+
+#import <Availability.h>
+
+#ifndef __IPHONE_3_0
+#warning "This project uses features only available in iOS SDK 3.0 and later."
+#endif
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+    #import <Foundation/Foundation.h>
+#endif
+
+#define isPhone568 ([[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPhone && [UIScreen mainScreen].bounds.size.height == 568)
+#define iPhone568ImageNamed(image) (isPhone568 ? [NSString stringWithFormat:@"%@-568h", image] : image)
+
+#define weburi @"60.249.202.111"
+#define webport @"80"
+#define wsnamespace @"http://ws.chte.com.tw"
+#define isiPad() ((UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPad))
+#define navigationbarheight 44
+#define statusbarheight 20
+#define contains(str1, str2) ([str1 rangeOfString: str2 ].location != NSNotFound)
+
+#define httptimeout 20

@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "1.0">
+   <FileBreakpoints>
+      <FileBreakpoint
+         shouldBeEnabled = "No"
+         ignoreCount = "0"
+         continueAfterRunningActions = "No"
+         filePath = "src/&#38642;&#31471;&#21483;&#34399;&#39318;&#38913;/MainViewController.m"
+         timestampString = "370752499.319574"
+         startingColumnNumber = "9223372036854775807"
+         endingColumnNumber = "9223372036854775807"
+         startingLineNumber = "598"
+         endingLineNumber = "598">
+      </FileBreakpoint>
+      <FileBreakpoint
+         shouldBeEnabled = "No"
+         ignoreCount = "0"
+         continueAfterRunningActions = "No"
+         filePath = "src/&#26354;&#32218;&#22294;/LineChartViewController.m"
+         timestampString = "372563653.562931"
+         startingColumnNumber = "9223372036854775807"
+         endingColumnNumber = "9223372036854775807"
+         startingLineNumber = "350"
+         endingLineNumber = "350"
+         landmarkName = "-requestFailed:"
+         landmarkType = "5">
+      </FileBreakpoint>
+      <FileBreakpoint
+         shouldBeEnabled = "No"
+         ignoreCount = "0"
+         continueAfterRunningActions = "No"
+         filePath = "src/&#26354;&#32218;&#22294;/LineChartViewController.m"
+         timestampString = "372563653.562931"
+         startingColumnNumber = "9223372036854775807"
+         endingColumnNumber = "9223372036854775807"
+         startingLineNumber = "358"
+         endingLineNumber = "358"
+         landmarkName = "-alertView:clickedButtonAtIndex:"
+         landmarkType = "5">
+      </FileBreakpoint>
+      <FileBreakpoint
+         shouldBeEnabled = "Yes"
+         ignoreCount = "0"
+         continueAfterRunningActions = "No"
+         filePath = "src/&#26354;&#32218;&#22294;/LineChartViewController.m"
+         timestampString = "372563653.562931"
+         startingColumnNumber = "9223372036854775807"
+         endingColumnNumber = "9223372036854775807"
+         startingLineNumber = "362"
+         endingLineNumber = "362"
+         landmarkName = "@implementation LineChartViewController"
+         landmarkType = "3">
+      </FileBreakpoint>
+      <FileBreakpoint
+         shouldBeEnabled = "No"
+         ignoreCount = "0"
+         continueAfterRunningActions = "No"
+         filePath = "&#26223;&#40670;&#35222;&#31383;/POIDetailViewController.m"
+         timestampString = "376983731.022175"
+         startingColumnNumber = "9223372036854775807"
+         endingColumnNumber = "9223372036854775807"
+         startingLineNumber = "190"
+         endingLineNumber = "190"
+         landmarkName = "-connectionDidFinishLoading:"
+         landmarkType = "5">
+      </FileBreakpoint>
+      <FileBreakpoint
+         shouldBeEnabled = "No"
+         ignoreCount = "0"
+         continueAfterRunningActions = "No"
+         filePath = "&#34892;&#20107;&#26310;/showcalendarView.m"
+         timestampString = "376884703.094265"
+         startingColumnNumber = "9223372036854775807"
+         endingColumnNumber = "9223372036854775807"
+         startingLineNumber = "51"
+         endingLineNumber = "51"
+         landmarkName = "-exhibitionviewclick:"
+         landmarkType = "5">
+      </FileBreakpoint>
+      <FileBreakpoint
+         shouldBeEnabled = "No"
+         ignoreCount = "0"
+         continueAfterRunningActions = "No"
+         filePath = "&#34892;&#20107;&#26310;/showcalendarView.m"
+         timestampString = "377338111.474553"
+         startingColumnNumber = "9223372036854775807"
+         endingColumnNumber = "9223372036854775807"
+         startingLineNumber = "390"
+         endingLineNumber = "390"
+         landmarkName = "-createDateObject"
+         landmarkType = "5">
+      </FileBreakpoint>
+      <FileBreakpoint
+         shouldBeEnabled = "No"
+         ignoreCount = "0"
+         continueAfterRunningActions = "No"
+         filePath = "&#34892;&#20107;&#26310;/showcalendarView.m"
+         timestampString = "376884703.094265"
+         startingColumnNumber = "9223372036854775807"
+         endingColumnNumber = "9223372036854775807"
+         startingLineNumber = "87"
+         endingLineNumber = "87"
+         landmarkName = "-didTouchView:"
+         landmarkType = "5">
+      </FileBreakpoint>
+      <FileBreakpoint
+         shouldBeEnabled = "No"
+         ignoreCount = "0"
+         continueAfterRunningActions = "No"
+         filePath = "&#34892;&#20107;&#26310;/showcalendarView.m"
+         timestampString = "376884703.094265"
+         startingColumnNumber = "9223372036854775807"
+         endingColumnNumber = "9223372036854775807"
+         startingLineNumber = "89"
+         endingLineNumber = "89"
+         landmarkName = "-didTouchView:"
+         landmarkType = "5">
+      </FileBreakpoint>
+      <FileBreakpoint
+         shouldBeEnabled = "No"
+         ignoreCount = "0"
+         continueAfterRunningActions = "No"
+         filePath = "&#34892;&#20107;&#26310;/showcalendarView.m"
+         timestampString = "377338111.474553"
+         startingColumnNumber = "9223372036854775807"
+         endingColumnNumber = "9223372036854775807"
+         startingLineNumber = "677"
+         endingLineNumber = "677"
+         landmarkName = "-parseJson:"
+         landmarkType = "5">
+      </FileBreakpoint>
+      <FileBreakpoint
+         shouldBeEnabled = "No"
+         ignoreCount = "0"
+         continueAfterRunningActions = "No"
+         filePath = "&#34892;&#20107;&#26310;/showcalendarView.m"
+         timestampString = "377338111.474553"
+         startingColumnNumber = "9223372036854775807"
+         endingColumnNumber = "9223372036854775807"
+         startingLineNumber = "685"
+         endingLineNumber = "685"
+         landmarkName = "-parseJson:"
+         landmarkType = "5">
+      </FileBreakpoint>
+      <FileBreakpoint
+         shouldBeEnabled = "No"
+         ignoreCount = "0"
+         continueAfterRunningActions = "No"
+         filePath = "Flicker/FlickerViewController.m"
+         timestampString = "377338111.474553"
+         startingColumnNumber = "9223372036854775807"
+         endingColumnNumber = "9223372036854775807"
+         startingLineNumber = "645"
+         endingLineNumber = "645"
+         landmarkName = "-startIconDownload:forIndexPath:"
+         landmarkType = "5">
+      </FileBreakpoint>
+      <FileBreakpoint
+         shouldBeEnabled = "No"
+         ignoreCount = "0"
+         continueAfterRunningActions = "No"
+         filePath = "ProgressView/GSProgressView.m"
+         timestampString = "376985819.081795"
+         startingColumnNumber = "9223372036854775807"
+         endingColumnNumber = "9223372036854775807"
+         startingLineNumber = "60"
+         endingLineNumber = "60"
+         landmarkName = "-drawRect:"
+         landmarkType = "5">
+      </FileBreakpoint>
+   </FileBreakpoints>
+</Bucket>

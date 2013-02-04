@@ -1,0 +1,66 @@
+//
+//  HospitalViewController.h
+//  m-Order
+//
+//  Created by HSU CHIH YUAN on 12/8/3.
+//  Copyright (c) 2012年 HSU CHIH YUAN. All rights reserved.
+//
+
+#import <UIKit/UIKit.h>
+#import "SBJsonParser.h"
+#import "KGDiscreetAlertView.h"
+#import "iCarouselViewController.h"
+#import "POIDetailViewController.h"
+
+#import "ASIFormDataRequest.h"
+
+#pragma mark - Host
+#include <netinet/in.h>
+#include <arpa/inet.h>
+#include <netdb.h>
+#import <SystemConfiguration/SystemConfiguration.h>
+
+#import <QuartzCore/QuartzCore.h>
+#import "GSProgressView.h"
+
+#import "AppRecord.h"
+#import "IconDownloader.h"
+
+@interface ListViewController : UIViewController<UITableViewDelegate, UITableViewDataSource, UIAlertViewDelegate, IconDownloaderDelegate, UIScrollViewDelegate>
+{
+    BOOL isInit;
+    NSMutableArray * dataset;
+    UITableView *tableView;
+    NSMutableDictionary *imageDownloadsInProgress;  // the set of IconDownloader objects for each app
+    //http
+    ASIFormDataRequest *requestObj;
+    BOOL httpSemaphore;
+    NSMutableString *jsonContent;
+    BOOL returnFlag;
+    BOOL clickSemaphore;
+    UIAlertView *progressAlert;
+    NSString *downloadPath;
+    NSString *unzipPath;
+    GSProgressView *gsprg_Bar;
+    UIImage *bgimageColor;
+    NSMutableURLRequest *requestUpdate;
+    NSMutableData *tempData;    //下載時暫存用的記憶體
+    long expectedLength;        //檔案大小
+    NSURLConnection *connect;
+}
+
+@property (nonatomic, retain) NSMutableDictionary *imageDownloadsInProgress;
+
+- (void)getDataFromWSInterface;
+@property (nonatomic, retain) UITableView *tableView;
+@property (nonatomic, retain) NSMutableArray * dataset;
+
+#pragma Host Function
+- (BOOL) addressFromString:(NSString *)IPAddress address:(struct sockaddr_in *)address;
+- (NSString *) getIPAddressForHost: (NSString *) theHost;
+- (BOOL) hostAvailable: (NSString *) theHost;
+- (void)getUpdateData;
+- (void)updateAlertWaiting;
+- (void)alertWaiting;
+
+@end
